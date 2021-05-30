@@ -1,0 +1,119 @@
+@font-face {
+  font-family: ExtraThin;
+  src: url("../fonts/Poppins-ExtraLight.ttf");
+}
+
+.navbar-text div {
+  font-family: ExtraThin;
+  font-weight: 600;
+  color: #8395a7;
+}
+
+::-webkit-input-placeholder {
+  font-family: ExtraThin;
+  font-weight: 600;
+  color: #8395a7;
+}
+
+:-ms-input-placeholder {
+  font-family: ExtraThin;
+  font-weight: 600;
+  color: #8395a7;
+}
+input {
+  font-family: ExtraThin;
+  font-weight: 600;
+}
+
+body {
+  font-family: ExtraThin;
+}
+
+.gotosignup {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#labpass,
+#labuser {
+  color: #ba2f16;
+  visibility: hidden;
+  font-family: ExtraThin;
+  font-size: 13px;
+}
+
+#gotosignup {
+  width: 100%;
+  color: white;
+  background-color: #0a79df;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  outline: none;
+  border-radius: 17px;
+  cursor: pointer;
+}
+#gotosignup:hover {
+  background-color: #30336b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 25%;
+  margin: 100px auto;
+  display: grid;
+  grid-template-rows: 100px 50px 77px 77px 50px 30px;
+  grid-template-columns: 1fr;
+  /* justify-items: center;*/
+}
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wel {
+  text-align: center;
+  font-family: ExtraThin;
+  font-size: 200%;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.sign {
+  width: 100%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  outline: none;
+  border-radius: 17px;
+  cursor: pointer;
+}
+.btn1 {
+  background-color: #0a79df;
+}
+.btn1:hover {
+  background-color: #30336b;
+}
+
+.forget {
+  text-align: center;
+}

@@ -1,0 +1,182 @@
+@font-face {
+  font-family: ExtraThin;
+  src: url("../fonts/Poppins-ExtraLight.ttf");
+}
+.navbar-text div {
+  font-family: ExtraThin;
+  font-weight: 600;
+  color: #8395a7;
+}
+
+body {
+  background-color: #ecf0f1 !important;
+}
+.navbar-text {
+  margin-right: auto !important;
+}
+::-webkit-input-placeholder {
+  font-family: ExtraThin;
+  font-weight: 600;
+  color: #8395a7;
+}
+
+:-ms-input-placeholder {
+  font-family: ExtraThin;
+  font-weight: 600;
+  color: #8395a7;
+}
+
+tr,
+input,
+label {
+  font-family: ExtraThin;
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main grid */
+.main {
+  font-family: ExtraThin;
+  width: 98%;
+  margin: 15px auto;
+  /* border:1px solid black; */
+  display: grid;
+  color: white;
+  grid-template-rows: 190px 80px 305px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #ecf0f1;
+}
+
+/* update div */
+.update {
+  background-color: white;
+  color: black;
+  display: grid;
+  grid-template-rows: 70px 130px;
+}
+.cust1 {
+  color: #0a79df;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+#upbtn,
+#vibtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+hr {
+  width: 91%;
+  margin-left: 10px;
+}
+
+#updateinfo,
+#viewinfo {
+  background-color: white;
+  width: 85%;
+  color: #0a79df;
+  padding: 3px 20px;
+  margin: 8px 0;
+  border: 1px solid #8395a7;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* infrom tag */
+.inform {
+  background-color: white;
+  color: black;
+  display: grid;
+  grid-template-rows: 70px 130px;
+}
+
+.info1 {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+#infomail,
+#infophone {
+  font-family: ExtraThin;
+  color: #0a79df;
+}
+
+/* visit div */
+.visit {
+  background-color: white;
+  color: black;
+  display: grid;
+  grid-template-rows: 70px 130px;
+}
+
+.visit1 {
+  line-height: 120px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.visit label {
+  vertical-align: middle;
+}
+
+/* search div */
+.search {
+  background-color: white;
+  grid-column: 1/-1;
+  color: black;
+}
+
+.searchbar {
+  width: 30%;
+  margin: 20px 20px;
+  display: grid;
+  grid-template-rows: 40px 80px;
+  grid-template-columns: 310px 300px;
+
+}
+
+/* Data table  */
+.data {
+  background-color: white;
+  grid-column: 1/-1;
+  justify-content: center;
+}
+
+.div-table::-webkit-scrollbar { width: 0 !important }
+
+.table-scroll{
+  width: 96%;
+  
+}
+.div-table{
+  margin: 15px auto;
+  overflow: scroll;
+  height: 300px;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: #0a79df;
+}
+tr,td{
+  color: black;
+}
+
+
+/* Scroll bar */
+
+/* .table-responsive {
+    max-height:300px;
+} */
